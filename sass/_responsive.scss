@@ -1,0 +1,167 @@
+@media(max-width:576px) {
+    .request_btn {
+
+        display: none;
+
+    }
+
+    .nav_style {
+        background-color: $White;
+        width: 70%;
+    }
+
+
+
+
+    .img_grp {
+
+
+        .img1 {
+            display: none;
+
+        }
+
+        .img2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+
+        .img3 {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: block;
+
+        }
+    }
+
+    .heading_nxt {
+        margin-top: 400px;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            text-align: center;
+            margin-top: 70px;
+            padding: 50px;
+            font-size: 45px;
+        }
+
+        p {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .request_btn {
+
+            display: block;
+
+        }
+    }
+
+    .choose_heading {
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            width: 25%;
+            padding: 20px;
+            margin-top: 0;
+            margin: 0 auto;
+        }
+
+    }
+
+    .grp_features {
+        width: 100%;
+
+        .choose_container {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            width: 290px;
+        }
+
+    }
+
+    #Latest_articles {
+
+        h2 {
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .card_container {
+            width: 100%;
+        }
+
+        .card_typ {
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    #footer {
+
+        .footer_box {
+            width: 100%;
+            text-align: center;
+            
+
+            .firstrow_menu {
+                width: 100%;
+
+                .left_menu  {
+                    text-align: center;
+                    margin-top: 40px;
+                     margin-bottom: 0px;
+
+                }
+            }
+
+            .secondrow_menu {
+                width: 100%;
+
+                .right_menu  {
+                    text-align: center;
+                     margin-top: 0px;
+
+                }
+            }
+           
+            .request_btn{
+                display: block;
+                
+                
+            }
+        }
+
+        .footer_box{
+            .request_btn{
+               position: relative;
+               left: -40%;
+            }
+        }
+
+
+
+    }
+
+}

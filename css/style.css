@@ -1,0 +1,354 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@100&display=swap");
+.btn_easybank {
+  display: inline-block;
+  font-family: "Public Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 3px 15px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid hsl(136, 65%, 51%);
+  border-radius: 50px;
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  margin-bottom: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.bg_header {
+  background-color: hsl(220, 16%, 96%);
+}
+
+#easybank_navbar {
+  position: relative;
+  top: 0px;
+  z-index: 100;
+}
+#easybank_navbar .nav_style {
+  padding: 0 !important;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: hsl(233, 8%, 62%);
+}
+#easybank_navbar .nav_style a {
+  text-align: center;
+}
+#easybank_navbar .nav_style a:hover {
+  border-bottom: 2px solid LimeGreen;
+}
+
+.nav_mob {
+  border: 0;
+}
+
+.heading_nxt {
+  margin-top: 70px;
+  margin-left: 9%;
+  width: 30%;
+}
+.heading_nxt h2 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.heading_nxt p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: hsl(233, 8%, 62%);
+  line-height: 18px;
+}
+
+.img_grp .img1 {
+  position: absolute;
+  top: -110px;
+  right: -180px;
+  z-index: 1;
+  width: 62%;
+  height: 100%;
+}
+.img_grp .img2 {
+  position: absolute;
+  top: 5%;
+  right: -100px;
+  z-index: 1;
+  width: 42%;
+  height: 100%;
+}
+.img_grp .img3 {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .request_btn {
+    display: none;
+  }
+  .nav_style {
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+  }
+  .img_grp .img1 {
+    display: none;
+  }
+  .img_grp .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .img_grp .img3 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .heading_nxt {
+    margin-top: 400px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .heading_nxt h2 {
+    text-align: center;
+    margin-top: 70px;
+    padding: 50px;
+    font-size: 45px;
+  }
+  .heading_nxt p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .heading_nxt .request_btn {
+    display: block;
+  }
+  .choose_heading {
+    width: 100%;
+    text-align: center;
+  }
+  .choose_heading h2 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .choose_heading p {
+    width: 25%;
+    padding: 20px;
+    margin-top: 0;
+    margin: 0 auto;
+  }
+  .grp_features {
+    width: 100%;
+  }
+  .grp_features .choose_container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+  }
+  #Latest_articles h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  #Latest_articles .card_container {
+    width: 100%;
+  }
+  #Latest_articles .card_typ {
+    padding: 10px;
+  }
+  #Latest_articles img {
+    width: 100%;
+  }
+  #footer .footer_box {
+    width: 100%;
+    text-align: center;
+  }
+  #footer .footer_box .firstrow_menu {
+    width: 100%;
+  }
+  #footer .footer_box .firstrow_menu .left_menu {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  #footer .footer_box .secondrow_menu {
+    width: 100%;
+  }
+  #footer .footer_box .secondrow_menu .right_menu {
+    text-align: center;
+    margin-top: 0px;
+  }
+  #footer .footer_box .request_btn {
+    display: block;
+  }
+  #footer .footer_box .request_btn {
+    position: relative;
+    left: -40%;
+  }
+}
+.wc_container {
+  background-color: hsl(220, 16%, 96%);
+  margin-top: 40px;
+}
+.wc_container h2 {
+  margin-top: 30px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.wc_container p {
+  margin-top: 20px;
+  display: inline-block;
+  width: 450px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: hsl(233, 8%, 62%);
+  line-height: 18px;
+}
+
+.choose_container {
+  width: 25%;
+}
+.choose_container h4 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.choose_container p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  color: hsl(233, 8%, 62%);
+  width: 160px;
+  display: inline-block;
+}
+.choose_container .choose_img {
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+#Latest_articles h2 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.card_typ {
+  border: none;
+}
+.card_typ img {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+}
+.card_typ h6 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: hsl(233, 8%, 62%);
+}
+.card_typ h4 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.card_typ:hover {
+  cursor: pointer;
+  color: LimeGreen;
+}
+.card_typ p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: hsl(233, 8%, 62%);
+  line-height: 18px;
+}
+
+#footer {
+  background-color: hsl(233, 26%, 24%);
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer_box {
+  width: 100%;
+}
+.footer_box .social_media_icons img {
+  margin-right: 10px;
+}
+.footer_box .social_media_icons img:hover {
+  cursor: pointer;
+  background-color: LimeGreen;
+}
+.footer_box .firstrow_menu {
+  width: 100px;
+}
+.footer_box .firstrow_menu .left_menu {
+  margin-top: 20px;
+}
+.footer_box .firstrow_menu .left_menu li a {
+  color: hsl(0, 0%, 98%);
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.footer_box .firstrow_menu .left_menu li a:hover {
+  cursor: pointer;
+  color: LimeGreen;
+}
+.footer_box .secondrow_menu {
+  width: 150px;
+}
+.footer_box .secondrow_menu .right_menu {
+  margin-top: 20px;
+}
+.footer_box .secondrow_menu .right_menu li a {
+  color: hsl(0, 0%, 98%);
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.footer_box .secondrow_menu .right_menu li a:hover {
+  cursor: pointer;
+  color: LimeGreen;
+}
+.footer_box p {
+  color: hsl(233, 8%, 62%);
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
