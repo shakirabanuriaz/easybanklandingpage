@@ -1,6 +1,6 @@
-/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@100&display=swap");
-/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@100&display=swap");
 .btn_easybank {
   display: inline-block;
@@ -36,15 +36,13 @@
   top: 0px;
   z-index: 100;
 }
-#easybank_navbar .nav_style {
-  padding: 0 !important;
+#easybank_navbar .nav_style a {
   font-family: "Public Sans", sans-serif;
   font-weight: 600;
   font-size: 12px;
   color: hsl(233, 8%, 62%);
-}
-#easybank_navbar .nav_style a {
   text-align: center;
+  text-decoration: none;
 }
 #easybank_navbar .nav_style a:hover {
   border-bottom: 2px solid LimeGreen;
@@ -133,7 +131,7 @@
   line-height: 18px;
   margin-bottom: 10px;
   color: hsl(233, 8%, 62%);
-  width: 160px;
+  width: 190px;
   display: inline-block;
 }
 .choose_container .choose_img {
