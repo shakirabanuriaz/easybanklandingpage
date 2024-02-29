@@ -348,7 +348,7 @@
   }
   #footer .footer_box .request_btn {
     position: relative;
-    left: 55px;
+    left: 50%;
     transform: translate(-50%);
   }
 }
