@@ -1,6 +1,5 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@100&display=swap");
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@100&display=swap");
 .btn_easybank {
   display: inline-block;
@@ -49,7 +48,12 @@
 }
 
 .nav_mob {
-  border: 0;
+  border: none;
+  outline: none;
+}
+.nav_mob:focus, .nav_mob:active, .nav_mob-icon:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .heading_nxt {
@@ -244,7 +248,7 @@
   .request_btn {
     display: none;
   }
-  .nav_style {
+  #mobMenu {
     background-color: hsl(0, 0%, 100%);
     width: 70%;
   }

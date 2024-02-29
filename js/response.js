@@ -1,13 +1,12 @@
-const mobileView=document.getElementById('bar');
-const navMenu=document.getElementById('navbarNav');
+const mobileView=document.getElementById('nav-btn');
+const navMenu=document.getElementById('navbarDiv');
 const toggleButton=document.getElementById('navMobile');
 
 
 mobileView.addEventListener('click',()=>{
 
     navMenu.classList.toggle('active');
-    console.log("test");
-    if(navMenu.classList.contains('active')){
+        if(navMenu.classList.contains('active')){
         toggleButton.src='images/icon-close.svg';
 
     }else{
