@@ -129,7 +129,7 @@
   font-weight: 300;
   font-size: 12px;
   line-height: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   color: hsl(233, 8%, 62%);
   width: 190px;
   display: inline-block;
@@ -296,7 +296,7 @@
     padding: 20px;
   }
   .choose_heading p {
-    width: 25%;
+    width: 60%;
     padding: 20px;
     margin-top: 0;
     margin: 0 auto;
