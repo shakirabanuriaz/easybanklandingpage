@@ -18,117 +18,6 @@
   margin-bottom: 30px;
 }
 
-@media (max-width: 576px) {
-  .request_btn {
-    display: none;
-  }
-  .nav_style {
-    background-color: hsl(0, 0%, 100%);
-    width: 70%;
-  }
-  .img_grp .img1 {
-    display: none;
-  }
-  .img_grp .img2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-  .img_grp .img3 {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: block;
-  }
-  .heading_nxt {
-    margin-top: 400px;
-    margin-right: 0;
-    margin-left: 0;
-    width: 100%;
-    text-align: center;
-  }
-  .heading_nxt h2 {
-    text-align: center;
-    margin-top: 70px;
-    padding: 50px;
-    font-size: 45px;
-  }
-  .heading_nxt p {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  .heading_nxt .request_btn {
-    display: block;
-  }
-  .choose_heading {
-    width: 100%;
-    text-align: center;
-  }
-  .choose_heading h2 {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .choose_heading p {
-    width: 25%;
-    padding: 20px;
-    margin-top: 0;
-    margin: 0 auto;
-  }
-  .grp_features {
-    width: 100%;
-  }
-  .grp_features .choose_container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    width: 290px;
-  }
-  #Latest_articles h2 {
-    font-size: 15px;
-    text-align: center;
-  }
-  #Latest_articles .card_container {
-    width: 100%;
-  }
-  #Latest_articles .card_typ {
-    padding: 10px;
-  }
-  #Latest_articles img {
-    width: 100%;
-  }
-  #footer .footer_box {
-    width: 100%;
-    text-align: center;
-  }
-  #footer .footer_box .firstrow_menu {
-    width: 100%;
-  }
-  #footer .footer_box .firstrow_menu .left_menu {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 0px;
-  }
-  #footer .footer_box .secondrow_menu {
-    width: 100%;
-  }
-  #footer .footer_box .secondrow_menu .right_menu {
-    text-align: center;
-    margin-top: 0px;
-  }
-  #footer .footer_box .request_btn {
-    display: block;
-  }
-  #footer .footer_box .request_btn {
-    position: relative;
-    left: -40%;
-  }
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -349,6 +238,118 @@
   margin-bottom: 10px;
   margin-left: 40px;
   padding: 0px;
+}
+
+@media (max-width: 576px) {
+  .request_btn {
+    display: none;
+  }
+  .nav_style {
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+  }
+  .img_grp .img1 {
+    display: none;
+  }
+  .img_grp .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .img_grp .img3 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .heading_nxt {
+    margin-top: 400px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .heading_nxt h2 {
+    text-align: center;
+    margin-top: 70px;
+    padding: 50px;
+    font-size: 45px;
+  }
+  .heading_nxt p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .heading_nxt .request_btn {
+    display: block;
+  }
+  .choose_heading {
+    width: 100%;
+    text-align: center;
+  }
+  .choose_heading h2 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .choose_heading p {
+    width: 25%;
+    padding: 20px;
+    margin-top: 0;
+    margin: 0 auto;
+  }
+  .grp_features {
+    width: 100%;
+  }
+  .grp_features .choose_container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+  }
+  #Latest_articles h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  #Latest_articles .card_container {
+    width: 100%;
+  }
+  #Latest_articles .card_typ {
+    padding: 10px;
+  }
+  #Latest_articles img {
+    width: 100%;
+  }
+  #footer .footer_box {
+    width: 100%;
+    text-align: center;
+  }
+  #footer .footer_box .firstrow_menu {
+    width: 100%;
+  }
+  #footer .footer_box .firstrow_menu .left_menu {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  #footer .footer_box .secondrow_menu {
+    width: 100%;
+  }
+  #footer .footer_box .secondrow_menu .right_menu {
+    text-align: center;
+    margin-top: 0px;
+  }
+  #footer .footer_box .request_btn {
+    display: block;
+  }
+  #footer .footer_box .request_btn {
+    position: relative;
+    left: -40%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
