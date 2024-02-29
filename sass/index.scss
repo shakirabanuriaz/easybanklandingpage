@@ -5,6 +5,7 @@
 @import '_variable.scss';
 
 
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -155,11 +156,15 @@
 // Latest_articles css starts
 
 #Latest_articles{
-
-    h2{
-        @include heading_two_style;
-    
+    .card_container
+    {
+        h2{
+            @include heading_two_style;
+        
+        }
     }
+
+   
 }   
 
    .card_typ{
@@ -260,7 +265,7 @@
                         text-decoration: none;
                         &:hover{
                             cursor: pointer;
-                            color:  LimeGreen;
+                            color:  rgb(99, 185, 99);
                         }
                        
                     }

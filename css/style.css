@@ -139,7 +139,7 @@
   margin-bottom: 40px;
 }
 
-#Latest_articles h2 {
+#Latest_articles .card_container h2 {
   font-family: "Public Sans", sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -228,7 +228,7 @@
 }
 .footer_box .secondrow_menu .right_menu li a:hover {
   cursor: pointer;
-  color: LimeGreen;
+  color: rgb(99, 185, 99);
 }
 .footer_box p {
   color: hsl(233, 8%, 62%);
