@@ -237,7 +237,11 @@
     margin-top: 30px;
 }
     .footer_box {
-        width:100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
            
         
         .social_media_icons img{
@@ -252,16 +256,16 @@
         }
 
         .firstrow_menu{
-            width:100px;
+            // width:100px;
             .left_menu{
-                margin-top: 20px;
+                // margin-top: 20px;
                 
                 li{
                     a{
                     color: $VeryLightGray;
                     font-family: "Public Sans", sans-serif;
                     font-weight: 400;
-                    font-size: 10px;
+                    font-size: 12px;
                     margin-bottom: 10px; 
                     text-decoration: none;
 
@@ -276,15 +280,15 @@
         }
 
         .secondrow_menu{
-            width:150px;
+            // width:150px;
             .right_menu{
-                margin-top: 20px;
+                // margin-top: 20px;
                 li{
                     a{
                         color: $VeryLightGray;
                         font-family: "Public Sans", sans-serif;
                         font-weight: 400;
-                        font-size: 10px; 
+                        font-size: 12px; 
                         margin-bottom: 10px; 
                         text-decoration: none;
                         &:hover{
@@ -297,15 +301,15 @@
                 }
             }
         }
-
-
+        
+     
         p{
             color: $GrayishBlue;
             font-family: "Public Sans", sans-serif;        
             font-weight: 700;
             font-size: 10px; 
             margin-bottom: 10px; 
-            margin-left: 40px;
+            margin-left: 80px;
             padding:0px;
      }
     }    

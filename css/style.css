@@ -16,8 +16,8 @@
   border: 2px solid hsl(136, 65%, 51%);
   border-radius: 50px;
   background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  margin-bottom: 30px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 * {
@@ -200,7 +200,9 @@
 }
 
 .footer_box {
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .footer_box .social_media_icons img {
   margin-right: 10px;
@@ -209,17 +211,11 @@
   cursor: pointer;
   background-color: LimeGreen;
 }
-.footer_box .firstrow_menu {
-  width: 100px;
-}
-.footer_box .firstrow_menu .left_menu {
-  margin-top: 20px;
-}
 .footer_box .firstrow_menu .left_menu li a {
   color: hsl(0, 0%, 98%);
   font-family: "Public Sans", sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 10px;
   text-decoration: none;
 }
@@ -227,17 +223,11 @@
   cursor: pointer;
   color: LimeGreen;
 }
-.footer_box .secondrow_menu {
-  width: 150px;
-}
-.footer_box .secondrow_menu .right_menu {
-  margin-top: 20px;
-}
 .footer_box .secondrow_menu .right_menu li a {
   color: hsl(0, 0%, 98%);
   font-family: "Public Sans", sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 10px;
   text-decoration: none;
 }
@@ -251,7 +241,7 @@
   font-weight: 700;
   font-size: 10px;
   margin-bottom: 10px;
-  margin-left: 40px;
+  margin-left: 80px;
   padding: 0px;
 }
 
@@ -340,31 +330,23 @@
     width: 100%;
   }
   #footer .footer_box {
-    width: 100%;
+    width: 50%;
     text-align: center;
-  }
-  #footer .footer_box .firstrow_menu {
-    width: 100%;
+    margin: 0 auto;
   }
   #footer .footer_box .firstrow_menu .left_menu {
-    text-align: center;
     margin-top: 40px;
-    margin-bottom: 0px;
-  }
-  #footer .footer_box .secondrow_menu {
-    width: 100%;
-  }
-  #footer .footer_box .secondrow_menu .right_menu {
-    text-align: center;
-    margin-top: 0px;
   }
   #footer .footer_box .request_btn {
     display: block;
   }
   #footer .footer_box .request_btn {
     position: relative;
-    left: 15%;
+    left: 20%;
     transform: translate(-50%);
+  }
+  #footer .footer_box p {
+    margin-left: 10px;
   }
 }
 

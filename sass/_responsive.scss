@@ -126,31 +126,24 @@
     #footer {
 
         .footer_box {
-            width: 100%;
+            width: 50%;
             text-align: center;
+
+           margin: 0 auto;
             
 
             .firstrow_menu {
-                width: 100%;
+             
 
                 .left_menu  {
-                    text-align: center;
+                    
                     margin-top: 40px;
-                     margin-bottom: 0px;
+                     
 
                 }
             }
 
-            .secondrow_menu {
-                width: 100%;
-
-                .right_menu  {
-                    text-align: center;
-                     margin-top: 0px;
-
-                }
-            }
-           
+            
             .request_btn{
                 display: block;
                 
@@ -161,8 +154,11 @@
         .footer_box{
             .request_btn{
                position:relative ;
-                left: 15%;
+                left: 20%;
                transform: translate(-50%);
+            }
+            p{
+                margin-left: 10px;
             }
         }
 
