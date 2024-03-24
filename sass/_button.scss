@@ -8,8 +8,8 @@ $btnBgColor:$LimeGreen;
     font-family: "Public Sans", sans-serif;
     font-size: 10px;
     font-weight:400;
-    line-height:17px;
-    padding: 3px 15px;
+    line-height:15px;
+    padding: 10px 20px;
     color:$White;
     text-align: center;
     text-decoration: none;
@@ -19,6 +19,7 @@ $btnBgColor:$LimeGreen;
     border-radius:50px;
     background-image: linear-gradient(to right,$LimeGreen,$BrightCyan);
     margin-bottom: 30px;
+    margin-top: 10px;
     
 
 }
